@@ -36,12 +36,12 @@ int main(int argc, char* argv[]) {
 // argc being count of arguments
 // argv being value of arguments
 	if (argc != 2) {
-		printf("Usage: sqrt input\n\n");
+		printf("DEBUG: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 	if(!is_actual_integer(argv[1]))
 	{
-		printf("Usage: Input should be a valid number\n\n");
+		printf("DEBUG: Usage: Input should be a valid number\n\n");
 		exit(-1);
 	}
 
@@ -49,14 +49,12 @@ int main(int argc, char* argv[]) {
 	if(argv[1][0]=='-')
 	{
 		input=-input;
-		printf("Sqrt of %d is %fi\n",input,sqrt(input));
+		printf("DEBUG:Sqrt of %d is %fi\n",input,sqrt(input));
 	}
 	else
+
 		printf("Sqrt of %d = %f\n",input,sqrt(input));
 	printf("End of program. Exiting now.");
-	printf("creating conflict in master");
-	printf("Creating conflic in br_negativeSupport");
-
 	return(0);
 
 } // end main
