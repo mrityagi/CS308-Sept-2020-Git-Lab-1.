@@ -5,6 +5,8 @@ positive number. */
 #include <stdlib.h>
 #include <math.h>
 #include <ctype.h>
+
+
 int is_actual_integer(const char *str)
 {
    // Handle negative numbers.
