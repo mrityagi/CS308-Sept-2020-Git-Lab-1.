@@ -54,7 +54,9 @@ int main(int argc, char* argv[]) {
 	else
 		printf("Sqrt of %d = %f\n",input,sqrt(input));
 	printf("End of program. Exiting now.");
-	printf("creating conflict");
+	printf("creating conflict in master");
+	printf("Creating conflic in br_negativeSupport");
+
 	return(0);
 
 } // end main
