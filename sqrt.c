@@ -9,7 +9,7 @@ positive number. */
 
 int is_actual_integer(const char *str)
 {
-   // Handle negative numbers.
+   // Handle and check for negative numbers.
    //
    if (*str == '-')
       ++str;
