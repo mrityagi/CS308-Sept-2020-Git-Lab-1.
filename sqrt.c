@@ -51,7 +51,7 @@ int main(int argc, char* argv[]) {
 	}
 	else
 		printf("Sqrt of %d = %f\n",input,sqrt(input));
-	printf("End of program. Exiting.");
+	printf("End of program. Exiting now.");
 	return(0);
 
 } // end main
